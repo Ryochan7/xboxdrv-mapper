@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>586</width>
+    <height>498</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>xboxdrv-mapper</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout_9">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QComboBox" name="lTriggerComboBox"/>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QComboBox" name="lBumperComboBox"/>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QComboBox" name="backComboBox"/>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QComboBox" name="startComboBox"/>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QComboBox" name="guideComboBox"/>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QComboBox" name="dpadXComboBox"/>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QComboBox" name="dpadYComboBox"/>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QComboBox" name="lStickXComboBox"/>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QComboBox" name="lStickYComboBox"/>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QComboBox" name="lsbComboBox"/>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_8">
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QPushButton" name="recordLTriggerPushButton">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>40</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>r</string>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QPushButton" name="recordLBumperPushButton">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>40</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>r</string>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QPushButton" name="recordBackPushButton">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>40</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>r</string>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QPushButton" name="recordStartPushButton">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>40</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>r</string>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QPushButton" name="recordGuidePushButton">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>40</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>r</string>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QPushButton" name="recordDPadXPushButton">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>40</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>r</string>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QPushButton" name="recordDPadYPushButton">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>40</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>r</string>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QPushButton" name="recordLStickXPushButton">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>40</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>r</string>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QPushButton" name="recordLStickYPushButton">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>40</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>r</string>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QPushButton" name="recordLSBPushButton">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>40</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>r</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QLabel" name="label">
+            <property name="text">
+             <string>L Trigger</string>
+            </property>
+            <property name="buddy">
+             <cstring>lTriggerComboBox</cstring>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>L Bumper</string>
+            </property>
+            <property name="buddy">
+             <cstring>lBumperComboBox</cstring>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QLabel" name="label_3">
+            <property name="text">
+             <string>Back</string>
+            </property>
+            <property name="buddy">
+             <cstring>backComboBox</cstring>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QLabel" name="label_4">
+            <property name="text">
+             <string>Start</string>
+            </property>
+            <property name="buddy">
+             <cstring>startComboBox</cstring>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QLabel" name="label_5">
+            <property name="text">
+             <string>Guide</string>
+            </property>
+            <property name="buddy">
+             <cstring>guideComboBox</cstring>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QLabel" name="label_6">
+            <property name="text">
+             <string>DPad X</string>
+            </property>
+            <property name="buddy">
+             <cstring>dpadXComboBox</cstring>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QLabel" name="label_7">
+            <property name="text">
+             <string>DPad Y</string>
+            </property>
+            <property name="buddy">
+             <cstring>dpadYComboBox</cstring>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QLabel" name="label_8">
+            <property name="text">
+             <string>L Stick X</string>
+            </property>
+            <property name="buddy">
+             <cstring>lStickXComboBox</cstring>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QLabel" name="label_9">
+            <property name="text">
+             <string>L Stick Y</string>
+            </property>
+            <property name="buddy">
+             <cstring>lStickYComboBox</cstring>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_10">
+            <property name="text">
+             <string>L Stick Button</string>
+            </property>
+            <property name="buddy">
+             <cstring>lsbComboBox</cstring>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>78</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QPushButton" name="recordRTriggerPushButton">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>40</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>r</string>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QPushButton" name="recordRBumperPushButton">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>40</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>r</string>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QPushButton" name="recordYPushButton">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>40</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>r</string>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QPushButton" name="recordXPushButton">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>40</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>r</string>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QPushButton" name="recordBPushButton">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>40</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>r</string>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QPushButton" name="recordAPushButton">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>40</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>r</string>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QPushButton" name="recordRStickXPushButton">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>40</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>r</string>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QPushButton" name="recordRStickYPushButton">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>40</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>r</string>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+           <widget class="QPushButton" name="recordRSBPushButton">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>40</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>r</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QComboBox" name="rTriggerComboBox"/>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QComboBox" name="rBumperComboBox"/>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QComboBox" name="yButtonComboBox"/>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QComboBox" name="xButtonComboBox"/>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QComboBox" name="bButtonComboBox"/>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QComboBox" name="aButtonComboBox"/>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QComboBox" name="rStickXComboBox"/>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QComboBox" name="rStickYComboBox"/>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QComboBox" name="rsbComboBox"/>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QLabel" name="label_13">
+            <property name="text">
+             <string>R Trigger</string>
+            </property>
+            <property name="buddy">
+             <cstring>rTriggerComboBox</cstring>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QLabel" name="label_17">
+            <property name="text">
+             <string>R Bumper</string>
+            </property>
+            <property name="buddy">
+             <cstring>rBumperComboBox</cstring>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QLabel" name="label_14">
+            <property name="text">
+             <string>Y Button</string>
+            </property>
+            <property name="buddy">
+             <cstring>yButtonComboBox</cstring>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QLabel" name="label_18">
+            <property name="text">
+             <string>X Button</string>
+            </property>
+            <property name="buddy">
+             <cstring>xButtonComboBox</cstring>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QLabel" name="label_12">
+            <property name="text">
+             <string>B Button</string>
+            </property>
+            <property name="buddy">
+             <cstring>bButtonComboBox</cstring>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QLabel" name="label_15">
+            <property name="text">
+             <string>A Button</string>
+            </property>
+            <property name="buddy">
+             <cstring>aButtonComboBox</cstring>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QLabel" name="label_20">
+            <property name="text">
+             <string>R Stick X</string>
+            </property>
+            <property name="buddy">
+             <cstring>rStickXComboBox</cstring>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QLabel" name="label_19">
+            <property name="text">
+             <string>R Stick Y</string>
+            </property>
+            <property name="buddy">
+             <cstring>rStickYComboBox</cstring>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QLabel" name="label_16">
+            <property name="text">
+             <string>R Stick Button</string>
+            </property>
+            <property name="buddy">
+             <cstring>rsbComboBox</cstring>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeType">
+       <enum>QSizePolicy::Fixed</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QCheckBox" name="mimicXpadCheckBox">
+        <property name="text">
+         <string>Mimic Xpad</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QCheckBox" name="invertLYCheckBox">
+        <property name="text">
+         <string>Invert LY</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QCheckBox" name="invertRYCheckBox">
+        <property name="text">
+         <string>Invert RY</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>200</height>
+       </size>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Tab 1</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_6">
+        <item>
+         <widget class="QTextEdit" name="outputTextEdit">
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Tab 2</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_7">
+        <item>
+         <widget class="QTextEdit" name="outputConfigTextEdit">
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+   <zorder>tabWidget</zorder>
+   <zorder>recordLTriggerPushButton</zorder>
+   <zorder>recordLBumperPushButton</zorder>
+   <zorder>recordBackPushButton</zorder>
+   <zorder>recordStartPushButton</zorder>
+   <zorder>recordGuidePushButton</zorder>
+   <zorder>recordDPadXPushButton</zorder>
+   <zorder>recordDPadYPushButton</zorder>
+   <zorder>recordLStickXPushButton</zorder>
+   <zorder>label_10</zorder>
+   <zorder>recordLStickYPushButton</zorder>
+   <zorder>recordLSBPushButton</zorder>
+   <zorder>recordRTriggerPushButton</zorder>
+   <zorder>recordRBumperPushButton</zorder>
+   <zorder>recordYPushButton</zorder>
+   <zorder>recordXPushButton</zorder>
+   <zorder>recordBPushButton</zorder>
+   <zorder>recordAPushButton</zorder>
+   <zorder>recordRStickXPushButton</zorder>
+   <zorder>recordRStickYPushButton</zorder>
+   <zorder>recordRSBPushButton</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
