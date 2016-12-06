@@ -1,4 +1,8 @@
 # xboxdrv-mapper
 
 Small test program to map an evdev joystick device into an xboxdrv created
-virtual Xbox 360 controller.
+virtual Xbox 360 controller. This program currently only works with the first
+detected controller and only if that controller is connected upon starting
+the program.
+
+![xboxdrv-mapper Preview](https://bytebucket.org/Ryochan7/xboxdrv-mapper/raw/master/xboxdrv-mapper-preview.png "xboxdrv-mapper Preview")
